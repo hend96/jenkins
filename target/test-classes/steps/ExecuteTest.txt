@@ -1,0 +1,9 @@
+Login
+
+1:Enter valid email
+2:Enter valid Password
+3:Click on Login button
+
+
+
+Expected:Navigate to Profile Page ---> check using profile page url

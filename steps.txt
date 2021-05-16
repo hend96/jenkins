@@ -1,0 +1,20 @@
+1:Install cucumber plugin
+2:Install dependancies for maven
+    -cucumber-core
+    -cucumber-java
+    -cucumber-testNG
+    -Gherkin
+    -testNG
+    
+3:Create three packages in test package for(features-step definations- runner)   
+4:Write feature content 
+5:run the runner class then copy the console output then paste it in the steps class (first determine the cucumber option at the top of the class)
+6:remove throw exception , then add the automation steps by calling the POM methods
+7:run the runner again
+
+---
+Notes : runner, steps calsses will extend base class
+- to check the report, refresh the whole project, then the report will appear in the test-output folder
+-Report each time is overwitten by the last results 
+- "And" will be mapped to when in the steps class
+ 
